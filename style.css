@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px 15px 50px;
+  margin-bottom: 50px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 14px;
+}
+
+.navigation ul li {
+  font-size: 14px;
+}
+
+.hero-panel {
+  display: flex;
+  padding: 0px 50px 50px 50px;
+  gap: 20px;
+}
+
+.hero-panel-left h1 {
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  /* Explicitly set the weight to 900 */
+  font-weight: 900;
+}
+
+.hero-panel-left button {
+  margin-top: 15px;
+  background-color: #3882f6;
+
+  border: none;
+  border-radius: 8px;
+  padding: 5px 20px 5px 20px;
+}
+
+.hero-panel-right img {
+  width: 400px;
+  height: auto;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  background-color: white; /* Add white background */
+  padding: 30px 50px 50px 50px;
+  align-items: center;
+}
+
+.group-of-images {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.sub-head {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+
+  padding: 30px;
+}
+.group-of-images img {
+  /* This targets ALL <img> elements *inside* the .group-of-images div */
+
+  width: 120px;
+  height: 120px;
+
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info-section-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-section-image p {
+  max-width: 120px;
+  font-size: 14px;
+}
+
+.testimonial-section {
+  background-color: #e5e7eb;
+  padding: 80px 180px 60px 180px;
+}
+
+.testimonial-section h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+
+  margin-bottom: 20px;
+}
+
+.testimonial-section h4.slug {
+  text-align: right;
+}
+
+.call-to-action-section {
+  background-color: white;
+  padding: 70px 120px 70px 120px;
+  color: white;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.panel {
+  background-color: #3882f6;
+  padding: 30px 60px 30px 60px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-panel h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.left-panel p {
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.right-panel button {
+  color: white;
+  background-color: #3882f6;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.footer-section {
+  background-color: #1f2937;
+  color: white;
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
